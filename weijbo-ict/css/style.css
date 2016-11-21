@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    background-color: #a4a5a8;
+    height: 100%;
+}
+.header {
+    height: 75px;
+    width: 100%;
+    background-color: #58595B;
+    box-shadow: 0px 5px 20px #00ADEE;
+    position: fixed;
+    top: 0px;
+}
+.logo {
+    margin-left: 8%;
+    height: inherit;
+    width: 150px;
+}
+.nav {
+    position: absolute;
+    top: 0px;
+    margin-left: 20%;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    height: 75px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 21px;
+    height: inherit;
+}
+li a:hover {
+    color: #fff;
+    text-decoration: none;    
+    background-color: #4b4c4e;
+}
+li a:active {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    height: auto; 
+    width: 100%;
+    min-height: 210px;
+    max-height: auto;
+    background-color: #4b4c4e;
+}
+.footer-container {
+    background-color: #58595B;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    min-height: inherit;
+}
+.footer-contact {
+    margin-left: 10%;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    width: 40%;
+    color: white;
+    float: left;
+    height: 150px;
+}
+.footer-gegevens {
+    margin: 0%;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    width: 45%;    
+    color: white;
+    float: left;
+    height: 150px;
+}
+.main {
+    background-color: #f2f2f3;
+    height: auto;
+}
+.call {
+    margin-top: 75px;
+    height: 700px;
+    width: 100%;
+    background-image: url(../Afbeeldingen/Testafbeelding.png);
+    overflow: hidden;
+}
+.call-center {
+    height: inherit;
+    padding: 20px;
+}
+.call-center h1 {
+    color: white;
+    text-align: center;
+}
+.kaas {
+    height: 500px;
+}
+.call-center button {
+    color: white;
+    font-size: 27px;
+    font-size-adjust: auto;
+    width: 25%;
+    padding: 10px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    top: 650px;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    display: inline;
+}
+.call-center-verhaal {
+    height: 60%;
+    width: 80%;
+    padding: 20px;
+    padding-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid white;
+    text-align: center;
+}
